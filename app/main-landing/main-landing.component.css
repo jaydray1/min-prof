@@ -9,7 +9,7 @@
     margin: 0;
     display: flex;
 }
-.intro-hi {
+.intro-container {
     display: flex;
     flex-direction: column;
     align-self: center;
@@ -20,11 +20,4 @@
     width: 100%;
     margin-right: 20em;
     margin-bottom: 10em;
-}
-.main-name {
-    display: flex;
-    flex-direction: row;
-    align-self: center;
-    align-items: center;
-    justify-content: center;
 }
