@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { AutoTyperComponent } from './auto-typer.component';
+import { MainLandingComponent } from './main-landing.component';
 
-describe('AutoTyperComponent', () => {
-  let component: AutoTyperComponent;
-  let fixture: ComponentFixture<AutoTyperComponent>;
+describe('MainLandingComponent', () => {
+  let component: MainLandingComponent;
+  let fixture: ComponentFixture<MainLandingComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ AutoTyperComponent ]
+      declarations: [ MainLandingComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(AutoTyperComponent);
+    fixture = TestBed.createComponent(MainLandingComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
